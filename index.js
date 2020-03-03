@@ -52,7 +52,7 @@ global.print = function(text, error) {
 }
 
 // Let the user know we're starting the scan
-print("Checking that you're connected to the drone wifi network...")
+print("Scanning for drone wifi network...")
 
 // Scan for availible wifi networks
 wifi.scan(function(err, networks) {
@@ -84,7 +84,7 @@ wifi.scan(function(err, networks) {
         password: ""
       }, function(err) {
         if (err) {
-          print("Could not connect to the drone wifi networks", true)
+          print("Could not connect to the drone wifi network", true)
         } else {
           // Let the user know we're opening the UDP connection to the drone
           print("Opening control socket to drone...")
