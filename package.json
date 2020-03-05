@@ -10,7 +10,7 @@
   "dependencies": {
     "colors": "^1.1.2",
     "keypress": "^0.2.1",
-    "node-wifi": "^1.2.5"
+    "node-wifi": "^2.0.12"
   },
   "devDependencies": {},
   "scripts": {
